@@ -1,0 +1,131 @@
+/*!
+ * Bootstrap v4.1.1 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+     /* Header/Blog Title */
+    .header {
+        padding: 30px;
+        font-size: 40px;
+        text-align: center;
+        background: white;
+    }
+
+    .frame {
+        padding: 30px;
+        text-align: center;
+        background: white;
+    }
+
+
+    .nav input[type=text] {
+	    padding: 6px;
+	    border: none;
+	    margin-top: 8px;
+	    font-size: 17px;    
+	}
+
+	.nav .search-container {
+		float: right;
+	}
+
+	.nav .search-container button {
+/*		float: right;*/
+		padding: 7.5px;
+		margin-top: 8px;
+		margin-right: 16px;
+		background: #ddd;
+		font-size: 14px;
+		border: none;
+		cursor: pointer;
+		position: absolute;
+	}
+
+	.nav .search-container button:hover {
+		background: #ccc;
+	}
+
+    .listheader {
+    	text-align: center;
+
+    }
+
+    .listsubheader {
+
+    }
+
+    .btn {
+    	border: 0px solid transparent;
+    	background-image: none;
+    }
+
+
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn {   
+        float: left;
+        width: 75%;
+    }
+
+    /* Right column */
+    .rightcolumn {
+        float: right;
+        width: 25%;
+        padding-left: 20px;
+    }
+
+    /* Fake image */
+    .fakeimg {
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* Add a card effect for articles */
+    .card {
+         background-color: white;
+         padding: 20px;
+         margin-top: 20px;
+         height: 1000px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+    }
+
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {   
+            width: 100%;
+            padding: 0;
+        }      
+    }            
+                
+    @media screen and (max-width: 800px) {
+	  	.nav .search-container {
+	    	float: left;
+	  	}   
+		.nav a, .topnav input[type=text], .topnav .search-container button {
+		    float: left;
+		    display: block;
+		    text-align: left;
+		    width: 100%;
+		    margin: 0;
+		    padding: 14px;
+	  	}
+	  	.nav input[type=text] {
+	  		border: 1px solid #ccc;
+	  	}
