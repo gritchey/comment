@@ -40,7 +40,6 @@
 		font-size: 14px;
 		border: none;
 		cursor: pointer;
-		position: absolute;
 	}
 
 	.nav .search-container button:hover {
